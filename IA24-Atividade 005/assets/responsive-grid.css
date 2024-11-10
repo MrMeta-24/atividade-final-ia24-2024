@@ -44,6 +44,13 @@ main .Galeria>div img {
   object-fit: cover;
 }
 
+main .Galeria > div:first-child {
+  grid-area: span 2 / span 2;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 
 main .Galeria > div:hover {
   transform: scale(1.3);

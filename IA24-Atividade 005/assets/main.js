@@ -6,7 +6,7 @@ document.querySelectorAll("[data-folder]").forEach(el => {
   for (let i = 1; i <= total; i++) {
     html += `
       <div>
-        <img src="assets/${folder}/(${i}).jpg">
+        <img src="assets/${folder}/${folder}(${i}).jpg">
       </div>    
     `
   }

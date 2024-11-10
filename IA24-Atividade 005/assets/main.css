@@ -26,6 +26,18 @@ aside {
 
 }
 
+aside > div {
+  position: sticky;
+  top: 0;
+}
+
+aside a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  transition: .2s;
+}
+
 main {
   min-width: 100px;
   min-height: 100px;
